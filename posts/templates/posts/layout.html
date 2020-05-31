@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Django Project</title>
+</head>
+<body>
+    <header class="container center-align">
+        <h1>Django Project</h1>
+        <h2>taught by Traversy Media</h2>
+    </header>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+
+        <a href="/admin">Admin Login</a>
+    </div>
+</body>
+</html>
